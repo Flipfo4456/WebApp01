@@ -1,0 +1,66 @@
+/* *{
+
+   
+    font-family: 'Poppins',sans-serif;
+    
+    
+    
+    font-style: medium;
+    
+    } */
+
+.navbar {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+  z-index: 100;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 11px;
+  gap: 10px;
+
+  width: 550px;
+  height: 55px;
+
+  background: #ffffff;
+  border-radius: 26px;
+}
+
+.nav-logo {
+  position: relative;
+  left: 70px;
+  margin-top: 30px;
+  width: 268px; /* ปรับขนาดโลโก้ */
+  height: 100px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 5px;
+  gap: 10px;
+
+  width: 160px;
+  height: 45px;
+
+  background: #ffffff;
+  border-radius: 25px;
+  font-weight: medium;
+
+  color: #002d6e; /* 🔹 แก้ให้ตัวหนังสือเป็นสีขาว */
+}
+
+.nav-item:hover {
+  background: #14d7e9;
+}
+
+.nav-item.active {
+  background: #002d6e;
+  color: white;
+}

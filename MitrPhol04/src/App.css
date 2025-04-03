@@ -1,0 +1,48 @@
+/* /* *{
+  background-color: rgb(217, 253, 253);
+} */
+.gm-ui-hover-effect {
+  display: none !important;
+}
+
+html,
+body {
+  overflow: hidden; 
+  background-color: rgb(217, 253, 253);
+  /* display: flex; */
+  /* flex-direction: column; */
+
+}
+
+body {
+  background-color: rgb(217, 253, 253);
+  gap: 20px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  padding-bottom: 60px;
+  
+}
+
+.nav-container {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center; 
+  width: 100%;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  height: 80px; 
+  z-index: 1000;
+}
+
+.App {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  align-items: center;
+  justify-content: center;
+ 
+} 
