@@ -46,7 +46,7 @@ const MapComponent = () => {
   return (
     <div className="map-align">
       <LoadScript 
-        googleMapsApiKey="AIzaSyBVg-N0T1tPgTacwwUhRmAE8ky3IUAaiUk"
+        googleMapsApiKey="Google_API"
         onLoad={() => setGoogleLoaded(true)}
       >
         {googleLoaded && (
